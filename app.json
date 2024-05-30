@@ -1,5 +1,6 @@
 {
   "expo": {
+    "plugins": [["expo-build-properties", {"android": {"usesCleartextTraffic": true }}]],
     "name": "AP5",
     "slug": "AP5",
     "version": "1.0.0",
@@ -9,7 +10,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
